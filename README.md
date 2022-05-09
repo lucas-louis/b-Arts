@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# b-Arts
+A platform to discover a new vision of the arts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation 🛠️
 
-## Available Scripts
+**1) Install Docker**  
+Follow this [official guide](https://docs.docker.com/get-docker/) to install Docker.  
+If you want to play a little bit with Docker, you can follow this [tutorial](https://docker-curriculum.com) or even our [workshop](https://github.com/PoCInnovation/Workshops/tree/master/software/04.Docker) !
 
-In the project directory, you can run:
+**2) Install b-Arts**  
+```
+# Get the project
+git clone git@github.com:lucas-louis/b-Arts.git
+cd b-Arts
 
-### `npm start`
+# Build b-Arts docker image
+make build
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Quickstart ⏩
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Run b-Arts 🚀**
+```
+# If it's the first time => Build and Run b-Arts docker image
+make
 
-### `npm test`
+# Otherwise => Run b-Arts docker image
+make start
+```
+You can now see your art platform :boom: !
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How ? 🤔
 
-### `npm run build`
+**Technologies 🧑‍💻**
++ [React](https://reactjs.org/docs/getting-started.html)
++ [Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
++ [Chakra UI](https://chakra-ui.com)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live demo 🔴
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Just [here](https://b-arts.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Our team 👌
 
-### `npm run eject`
+Developer:  
+| [<img src="https://github.com/lucas-louis.png?size=85" width=85><br><sub>Lucas Louis</sub>](https://github.com/lucas-louis) |
+| :---: |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+> :rocket: Don't hesitate to share this project, and put a star 🌟 on `this` repositories.
